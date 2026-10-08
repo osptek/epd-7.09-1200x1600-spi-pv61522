@@ -19,6 +19,7 @@
 
 - [Overview](#overview)
 - [Specifications](#specifications)
+- [Sample projects](#sample-projects)
 - [Repository layout](#repository-layout)
 - [Resources](#resources)
 - [Where to Buy](#where-to-buy)
@@ -46,6 +47,12 @@ Current module version: **EPD0709A02**. Electrical and mechanical details follow
 
 > Full outline, FPC definition, power, and timing follow the product datasheet / driver IC datasheet.
 
+## Sample projects
+
+| Description | Path |
+| ---- | ---- |
+| ESP32-S3 · six-color bar bring-up | [`examples/esp32s3-epd-7.09-1200x1600-spi-tbd-bringup/`](./examples/esp32s3-epd-7.09-1200x1600-spi-tbd-bringup/) |
+
 ## Repository layout
 
 ```text
@@ -65,6 +72,10 @@ epd-7.09-1200x1600-spi-tbd/                                # repo root (nav: ../
 | -------- | ---- |
 | Product datasheet (EPD0709A02) | [`docs/EPD0709A02.pdf`](./docs/EPD0709A02.pdf) |
 | 7.09″ six-color e-paper adapter schematic (Altium, V1.1) | [`docs/7.09寸6色墨水屏.SchDoc`](./docs/7.09%E5%AF%B86%E8%89%B2%E5%A2%A8%E6%B0%B4%E5%B1%8F.SchDoc) |
+
+### Samples
+
+- [ESP32-S3 six-color bar bring-up](./examples/esp32s3-epd-7.09-1200x1600-spi-tbd-bringup/)
 
 ## Where to Buy
 
