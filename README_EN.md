@@ -1,8 +1,8 @@
 <p align="left"><img alt="OSPTEK" src="./images/logo.png" width="200" /></p>
 
-<h1 align="center">OSPTEK 7.09″ EPD 1200×1600 (TBD · SPI)</h1>
+<h1 align="center">OSPTEK 7.09″ EPD 1200×1600 (PV61522 · SPI)</h1>
 
-<p align="center"><b>E-paper module · SPI · TBD · Multi-Version Index</b></p>
+<p align="center"><b>E-paper module · SPI · PV61522 · Multi-Version Index</b></p>
 
 <p align="center">English | <a href="./README.md">简体中文</a></p>
 
@@ -10,7 +10,7 @@
   <img alt="Size: 7.09 inch" src="https://img.shields.io/badge/Size-7.09%22-3498DB?style=flat-square" />
   <img alt="Resolution: 1200x1600" src="https://img.shields.io/badge/Resolution-1200%C3%971600-8E44AD?style=flat-square" />
   <img alt="Interface: SPI" src="https://img.shields.io/badge/Interface-SPI-27AE60?style=flat-square" />
-  <img alt="Driver: TBD" src="https://img.shields.io/badge/Driver-TBD-E7352C?style=flat-square" />
+  <img alt="Driver: PV61522" src="https://img.shields.io/badge/Driver-PV61522-E7352C?style=flat-square" />
 </p>
 
 ## Contents
@@ -25,11 +25,11 @@
 
 ## About
 
-This repository holds materials for the **7.09″ 1200×1600 EPD (SPI · TBD)** module family.
+This repository holds materials for the **7.09″ 1200×1600 EPD (SPI · PV61522)** module family.
 
 The **root README is the navigation page**. Use the table below for a quick scan; open **Full docs** to enter that **part-number folder** under `versions/` (product page, datasheets, and examples live there).
 
-Repo id: `epd-7.09-1200x1600-spi-tbd`
+Repo id: `epd-7.09-1200x1600-spi-pv61522`
 
 ---
 

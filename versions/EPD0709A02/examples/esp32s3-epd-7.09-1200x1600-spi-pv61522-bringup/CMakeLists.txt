@@ -3,4 +3,4 @@
 cmake_minimum_required(VERSION 3.16)
 
 include($ENV{IDF_PATH}/tools/cmake/project.cmake)
-project(esp32s3-epd-7.09-1200x1600-spi-tbd-bringup)
+project(esp32s3-epd-7.09-1200x1600-spi-pv61522-bringup)

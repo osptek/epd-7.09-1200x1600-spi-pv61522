@@ -1,8 +1,8 @@
 <p align="left"><img alt="OSPTEK" src="./images/logo.png" width="200" /></p>
 
-<h1 align="center">OSPTEK 7.09″ EPD 1200×1600 (TBD · SPI)</h1>
+<h1 align="center">OSPTEK 7.09″ EPD 1200×1600 (PV61522 · SPI)</h1>
 
-<p align="center"><b>E-paper module · SPI · TBD</b></p>
+<p align="center"><b>E-paper module · SPI · PV61522</b></p>
 
 <p align="center">English | <a href="./README.md">简体中文</a></p>
 
@@ -10,10 +10,10 @@
   <img alt="Size: 7.09 inch" src="https://img.shields.io/badge/Size-7.09%22-3498DB?style=flat-square" />
   <img alt="Resolution: 1200x1600" src="https://img.shields.io/badge/Resolution-1200%C3%971600-8E44AD?style=flat-square" />
   <img alt="Interface: SPI" src="https://img.shields.io/badge/Interface-SPI-27AE60?style=flat-square" />
-  <img alt="Driver: TBD" src="https://img.shields.io/badge/Driver-TBD-E7352C?style=flat-square" />
+  <img alt="Driver: PV61522" src="https://img.shields.io/badge/Driver-PV61522-E7352C?style=flat-square" />
 </p>
 
-<p align="center"><img alt="OSPTEK 7.09&quot; 1200×1600 EPD SPI module (TBD) product image" src="./images/product.png" width="640" /></p>
+<p align="center"><img alt="OSPTEK 7.09&quot; 1200×1600 EPD SPI module (PV61522) product image" src="./images/product.png" width="640" /></p>
 
 ## Contents
 
@@ -29,9 +29,9 @@
 
 ## Overview
 
-OSPTEK **7.09″ 1200×1600 EPD** is a **SPI** six-color e-paper display module (black / white / red / yellow / blue / green). The driver IC part number is not confirmed yet, so the repository name uses **TBD** for now; it will be renamed and this page updated once confirmed.
+OSPTEK **7.09″ 1200×1600 EPD** is a **SPI** six-color e-paper display module (black / white / red / yellow / blue / green). Source drivers are **PV61522** (×2); the gate driver is **EK73601BA**.
 
-Repo id: `epd-7.09-1200x1600-spi-tbd`
+Repo id: `epd-7.09-1200x1600-spi-pv61522`
 
 Current module version: **EPD0709A02**. Electrical and mechanical details follow [`docs/EPD0709A02.pdf`](./docs/EPD0709A02.pdf).
 
@@ -43,7 +43,7 @@ Current module version: **EPD0709A02**. Electrical and mechanical details follow
 | Type | EPD (e-paper · six-color) |
 | Resolution | 1200×1600 |
 | Interface | SPI |
-| Driver IC | TBD |
+| Driver IC | PV61522 (×2) + EK73601BA |
 
 > Full outline, FPC definition, power, and timing follow the product datasheet / driver IC datasheet.
 
@@ -51,12 +51,12 @@ Current module version: **EPD0709A02**. Electrical and mechanical details follow
 
 | Description | Path |
 | ---- | ---- |
-| ESP32-S3 · six-color bar bring-up | [`examples/esp32s3-epd-7.09-1200x1600-spi-tbd-bringup/`](./examples/esp32s3-epd-7.09-1200x1600-spi-tbd-bringup/) |
+| ESP32-S3 · six-color bar bring-up | [`examples/esp32s3-epd-7.09-1200x1600-spi-pv61522-bringup/`](./examples/esp32s3-epd-7.09-1200x1600-spi-pv61522-bringup/) |
 
 ## Repository layout
 
 ```text
-epd-7.09-1200x1600-spi-tbd/                                # repo root (nav: ../../README_EN.md)
+epd-7.09-1200x1600-spi-pv61522/                                # repo root (nav: ../../README_EN.md)
 └── versions/
     └── EPD0709A02/                                # full materials for this part number
         ├── README.md
@@ -75,7 +75,7 @@ epd-7.09-1200x1600-spi-tbd/                                # repo root (nav: ../
 
 ### Samples
 
-- [ESP32-S3 six-color bar bring-up](./examples/esp32s3-epd-7.09-1200x1600-spi-tbd-bringup/)
+- [ESP32-S3 six-color bar bring-up](./examples/esp32s3-epd-7.09-1200x1600-spi-pv61522-bringup/)
 
 ## Where to Buy
 

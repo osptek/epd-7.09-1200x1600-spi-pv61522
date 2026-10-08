@@ -1,4 +1,4 @@
-id: epd-7.09-1200x1600-spi-tbd
+id: epd-7.09-1200x1600-spi-pv61522
 category: displays
 
 size: "7.09"
@@ -10,6 +10,6 @@ corner: rounded
 
 versions:
   - id: EPD0709A02
-    driver: TBD
+    driver: [PV61522, EK73601BA]
     touch: none
     note: Six-color (black / white / red / yellow / blue / green)

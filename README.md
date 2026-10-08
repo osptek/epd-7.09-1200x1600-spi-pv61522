@@ -1,8 +1,8 @@
 <p align="left"><img alt="OSPTEK" src="./images/logo.png" width="200" /></p>
 
-<h1 align="center">OSPTEK 7.09″ EPD 1200×1600（TBD · SPI）</h1>
+<h1 align="center">OSPTEK 7.09″ EPD 1200×1600（PV61522 · SPI）</h1>
 
-<p align="center"><b>电子纸模组 · SPI · TBD · 多版本索引</b></p>
+<p align="center"><b>电子纸模组 · SPI · PV61522 · 多版本索引</b></p>
 
 <p align="center"><a href="./README_EN.md">English</a> | 简体中文</p>
 
@@ -10,7 +10,7 @@
   <img alt="Size: 7.09 inch" src="https://img.shields.io/badge/Size-7.09%22-3498DB?style=flat-square" />
   <img alt="Resolution: 1200x1600" src="https://img.shields.io/badge/Resolution-1200%C3%971600-8E44AD?style=flat-square" />
   <img alt="Interface: SPI" src="https://img.shields.io/badge/Interface-SPI-27AE60?style=flat-square" />
-  <img alt="Driver: TBD" src="https://img.shields.io/badge/Driver-TBD-E7352C?style=flat-square" />
+  <img alt="Driver: PV61522" src="https://img.shields.io/badge/Driver-PV61522-E7352C?style=flat-square" />
 </p>
 
 ## 目录
@@ -25,11 +25,11 @@
 
 ## 说明
 
-本仓库收录 **7.09 寸 1200×1600 EPD（SPI · TBD）** 显示模组资料。
+本仓库收录 **7.09 寸 1200×1600 EPD（SPI · PV61522）** 显示模组资料。
 
 **根目录 README 为导航页**。下表可快速浏览各版本；点击「完整资料」进入 `versions/` 下对应**料号文件夹**（产品页、规格书、示例均在该目录内）。
 
-规格标识（仓库名）：`epd-7.09-1200x1600-spi-tbd`
+规格标识（仓库名）：`epd-7.09-1200x1600-spi-pv61522`
 
 ---
 

@@ -1,8 +1,8 @@
 <p align="left"><img alt="OSPTEK" src="./images/logo.png" width="200" /></p>
 
-<h1 align="center">OSPTEK 7.09″ EPD 1200×1600（TBD · SPI）</h1>
+<h1 align="center">OSPTEK 7.09″ EPD 1200×1600（PV61522 · SPI）</h1>
 
-<p align="center"><b>电子纸模组 · SPI · TBD</b></p>
+<p align="center"><b>电子纸模组 · SPI · PV61522</b></p>
 
 <p align="center"><a href="./README_EN.md">English</a> | 简体中文 · <a href="../../README.md">规格族索引</a></p>
 
@@ -10,10 +10,10 @@
   <img alt="Size: 7.09 inch" src="https://img.shields.io/badge/Size-7.09%22-3498DB?style=flat-square" />
   <img alt="Resolution: 1200x1600" src="https://img.shields.io/badge/Resolution-1200%C3%971600-8E44AD?style=flat-square" />
   <img alt="Interface: SPI" src="https://img.shields.io/badge/Interface-SPI-27AE60?style=flat-square" />
-  <img alt="Driver: TBD" src="https://img.shields.io/badge/Driver-TBD-E7352C?style=flat-square" />
+  <img alt="Driver: PV61522" src="https://img.shields.io/badge/Driver-PV61522-E7352C?style=flat-square" />
 </p>
 
-<p align="center"><img alt="OSPTEK 7.09 寸 1200×1600 EPD SPI 模组（TBD）宣传图" src="./images/product.png" width="640" /></p>
+<p align="center"><img alt="OSPTEK 7.09 寸 1200×1600 EPD SPI 模组（PV61522）宣传图" src="./images/product.png" width="640" /></p>
 
 ## 目录
 
@@ -29,9 +29,9 @@
 
 ## 产品简介
 
-OSPTEK **7.09 寸 1200×1600 EPD** 是一款 **SPI** 接口六色电子纸显示模组（黑 / 白 / 红 / 黄 / 蓝 / 绿）。驱动 IC 型号待确认，仓库名暂用 **TBD**；确认后将更名并同步更新本页。
+OSPTEK **7.09 寸 1200×1600 EPD** 是一款 **SPI** 接口六色电子纸显示模组（黑 / 白 / 红 / 黄 / 蓝 / 绿）。源极驱动为 **PV61522**（×2），栅极驱动为 **EK73601BA**。
 
-规格标识（仓库名）：`epd-7.09-1200x1600-spi-tbd`
+规格标识（仓库名）：`epd-7.09-1200x1600-spi-pv61522`
 
 当前模组版本：**EPD0709A02**。电气与外形细节以 [`docs/EPD0709A02.pdf`](./docs/EPD0709A02.pdf) 为准。
 
@@ -43,7 +43,7 @@ OSPTEK **7.09 寸 1200×1600 EPD** 是一款 **SPI** 接口六色电子纸显示
 | 类型 | EPD（电子纸 · 六色） |
 | 分辨率 | 1200×1600 |
 | 接口 | SPI |
-| 驱动 IC | TBD |
+| 驱动 IC | PV61522（×2）+ EK73601BA |
 
 > 完整外形尺寸、FPC 定义、供电与时序以产品规格书 / 驱动手册为准。
 
@@ -51,12 +51,12 @@ OSPTEK **7.09 寸 1200×1600 EPD** 是一款 **SPI** 接口六色电子纸显示
 
 | 说明 | 路径 |
 | ---- | ---- |
-| ESP32-S3 · 六色色条 bring-up | [`examples/esp32s3-epd-7.09-1200x1600-spi-tbd-bringup/`](./examples/esp32s3-epd-7.09-1200x1600-spi-tbd-bringup/) |
+| ESP32-S3 · 六色色条 bring-up | [`examples/esp32s3-epd-7.09-1200x1600-spi-pv61522-bringup/`](./examples/esp32s3-epd-7.09-1200x1600-spi-pv61522-bringup/) |
 
 ## 仓库结构
 
 ```text
-epd-7.09-1200x1600-spi-tbd/                                # 仓库根（导航见 ../../README.md）
+epd-7.09-1200x1600-spi-pv61522/                                # 仓库根（导航见 ../../README.md）
 └── versions/
     └── EPD0709A02/                                # 本料号完整资料
         ├── README.md
@@ -75,7 +75,7 @@ epd-7.09-1200x1600-spi-tbd/                                # 仓库根（导航�
 
 ### 示例工程
 
-- [ESP32-S3 六色色条 bring-up](./examples/esp32s3-epd-7.09-1200x1600-spi-tbd-bringup/)
+- [ESP32-S3 六色色条 bring-up](./examples/esp32s3-epd-7.09-1200x1600-spi-pv61522-bringup/)
 
 ## 购买链接
 
