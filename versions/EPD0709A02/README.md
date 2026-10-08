@@ -65,8 +65,6 @@ epd-7.09-1200x1600-spi-tbd/                                # 仓库根（导航�
 | ---- | ---- |
 | 产品规格书（EPD0709A02） | [`docs/EPD0709A02.pdf`](./docs/EPD0709A02.pdf) |
 | 7.09 寸六色墨水屏转接板原理图（Altium，V1.1） | [`docs/7.09寸6色墨水屏.SchDoc`](./docs/7.09%E5%AF%B86%E8%89%B2%E5%A2%A8%E6%B0%B4%E5%B1%8F.SchDoc) |
-| 7.09 寸六色墨水屏转接板 PCB（Altium，V1.1） | [`docs/7.09寸6色墨水屏.PcbDoc`](./docs/7.09%E5%AF%B86%E8%89%B2%E5%A2%A8%E6%B0%B4%E5%B1%8F.PcbDoc) |
-| 7.09 寸六色墨水屏转接板工程（Altium，V1.1） | [`docs/7.09寸6色墨水屏.PrjPcb`](./docs/7.09%E5%AF%B86%E8%89%B2%E5%A2%A8%E6%B0%B4%E5%B1%8F.PrjPcb) |
 
 ## 购买链接
 
